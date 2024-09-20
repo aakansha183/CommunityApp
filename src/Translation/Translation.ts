@@ -14,4 +14,11 @@ export const translations = {
   next: 'NEXT',
   alreadyAccount: 'Already have an account ? Sign In',
   preSignupSubEmailPlaceholder: 'Email or Mobile',
+  email:'Email',
+  forgotPass :'Forgot Password',
+  setPassword:'Set Password',
+  confirmPassword:'Confirm Password',
+  newPassword:'New Password',
+  confirm:'Confirm',
+  desSetPassword:'your new password  must be different to previously used Passwords.'
 };

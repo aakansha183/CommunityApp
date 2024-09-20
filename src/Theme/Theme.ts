@@ -8,4 +8,5 @@ export const theme = {
   inputBorder: '#989CA8',
   labelGrey: '#4B5368',
   dividerGrey: '#B9BCC4',
+  smokeBlack:'#505050'
 };

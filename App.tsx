@@ -5,6 +5,8 @@ import SplashScreen from './src/Screens/ScreenSplash/ScreenSplash';
 import {StatusBar} from 'react-native';
 import {theme} from './src/Theme/Theme';
 import PreSignupScreen from './src/Screens/ScreenPreSignup/ScreenPreSignup';
+import ForgotPasswordScreen from './src/Screens/ScreenForgotPassword/ScreenForgotPassword';
+import SetPasswordScreen from './src/Screens/ScreenSetPassword/ScreenSetPassword';
 
 const Stack = createStackNavigator();
 
@@ -27,7 +29,10 @@ const App: React.FC = () => {
           <Stack.Screen name="Splash" component={SplashScreen} />
         ) : (
           // <Stack.Screen name="Login" component={LoginScreen} />
-          <Stack.Screen name="Presignup" component={PreSignupScreen} />
+          // <Stack.Screen name="Presignup" component={PreSignupScreen} />
+          // <Stack.Screen name="ForgotPassword" component={ForgotPasswordScreen} />
+          <Stack.Screen name="SetPassword" component={SetPasswordScreen} />
+
         )}
       </Stack.Navigator>
     </NavigationContainer>

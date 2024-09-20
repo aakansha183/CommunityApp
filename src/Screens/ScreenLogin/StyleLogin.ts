@@ -22,7 +22,7 @@ export const styles = StyleSheet.create({
     marginTop: hp('-12%'),
   },
   subTitle: {
-    fontSize: 18,
+    fontSize: 16,
     marginTop: hp('4%'),
     marginBottom: hp('8%'),
     color: theme.lightBlack,
